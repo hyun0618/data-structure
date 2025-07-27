@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="LCRSTree">
+      <UniqueIdentifier>{f62288c6-abf7-40d5-8feb-46b3b22903a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryTree">
+      <UniqueIdentifier>{69432d4a-8c2b-4427-b1a2-1abed4482e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExpressionTree">
+      <UniqueIdentifier>{5ab7b2a0-d132-40f6-9b38-e271ae4a9930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DisjointSet">
+      <UniqueIdentifier>{4f98ef71-90fd-4c19-aa28-b9da6f24049a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="LCRSTree.c">
+      <Filter>LCRSTree</Filter>
     </ClCompile>
+    <ClCompile Include="Test_LCRSTree.c">
+      <Filter>LCRSTree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LCRSTree.h">
+      <Filter>LCRSTree</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
