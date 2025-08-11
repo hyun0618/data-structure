@@ -13,30 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="LCRSTree">
+    <Filter Include="Tree">
+      <UniqueIdentifier>{ae62a0af-ce10-428d-8c65-186659d96de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tree\LCRSTree">
       <UniqueIdentifier>{f62288c6-abf7-40d5-8feb-46b3b22903a1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="BinaryTree">
-      <UniqueIdentifier>{69432d4a-8c2b-4427-b1a2-1abed4482e66}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ExpressionTree">
+    <Filter Include="Tree\ExpressionTree">
       <UniqueIdentifier>{5ab7b2a0-d132-40f6-9b38-e271ae4a9930}</UniqueIdentifier>
     </Filter>
-    <Filter Include="DisjointSet">
+    <Filter Include="Tree\DisjointSet">
       <UniqueIdentifier>{4f98ef71-90fd-4c19-aa28-b9da6f24049a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tree\BinaryTree">
+      <UniqueIdentifier>{69432d4a-8c2b-4427-b1a2-1abed4482e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{cc8da129-0a7c-458c-b8cd-f8fa9c7acad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List\LinkedList">
+      <UniqueIdentifier>{e14b2ccc-62aa-4b1a-b6ef-ae1b3e06a6d3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LCRSTree.c">
-      <Filter>LCRSTree</Filter>
+      <Filter>Tree\LCRSTree</Filter>
     </ClCompile>
     <ClCompile Include="Test_LCRSTree.c">
-      <Filter>LCRSTree</Filter>
+      <Filter>Tree\LCRSTree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LCRSTree.h">
-      <Filter>LCRSTree</Filter>
+      <Filter>Tree\LCRSTree</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>List\LinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
